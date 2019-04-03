@@ -8,3 +8,7 @@ function printArr($numbers)
     }
 }
 
+function largest($numbers)
+{
+    return max($numbers);
+}
