@@ -25,3 +25,9 @@ function average($numbers)
     $average = $sum/$count;
     return $average;
 }
+
+function removeDups($numbers)
+{
+    $numbers = array_unique($numbers);
+    return $numbers;
+}
