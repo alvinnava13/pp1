@@ -31,3 +31,9 @@ function removeDups($numbers)
     $numbers = array_unique($numbers);
     return $numbers;
 }
+
+function distribution($numbers)
+{
+    $count = array_count_values($numbers);
+    print_r($count);
+}

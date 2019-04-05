@@ -24,4 +24,5 @@ echo "Largest: " . largest($numbers) . "<br>";
 echo "Average: " . average($numbers) . "<br>";
 echo "No Duplicates: <br>";
 printArr(removeDups($numbers));
+echo "Distribution: " + distribution($numbers);
 ?>
